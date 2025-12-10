@@ -2,9 +2,9 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import LecturerShell from '../../../../components/lecturer/LecturerShell';
-import QuestionEditor, { Question } from '../../../../components/lecturer/QuestionEditor';
-import { apiGet, apiPost, apiPut } from '../../../../lib/api';
+import LecturerShell from '../../../../../components/lecturer/LecturerShell';
+import QuestionEditor, { Question } from '../../../../../components/lecturer/QuestionEditor';
+import { apiGet, apiPost, apiPut } from '../../../../../lib/api';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 

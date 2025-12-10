@@ -4,6 +4,10 @@ import LecturerShell from '../../../components/lecturer/LecturerShell';
 import Link from 'next/link';
 import { apiGet } from '../../../lib/api';
 
+// Force dynamic rendering because we fetch /api data with no caching
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface Quiz {
   id: string;
   title: string;
